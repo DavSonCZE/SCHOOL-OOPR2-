@@ -1,0 +1,88 @@
+<html>
+    <body>
+        <div id="block">
+            <div id="quest" >
+                <b>Rozhraní se definuje pomocí klíčového slova </b> => interface <br>
+                <b>Abstraktní třída se vytvoří pomocí klíčového slova </b> => abstract <br>
+                <b>Označte pravdivá tvrzení o konstruktoru  </b> => může být privátní, může volat konstruktor třídy-předka <br>
+                <b>Označte pravdivá tvrzení pro statickou třídu X   </b> => Tato konstrukce v jazyce Java neexistuje. <br>
+                <b>Označte pravdivá tvrzení pro abstraktní třídu X   </b> => Lze volat metody u proměnné typu X, Lze vytvořit třídu, která bude potomkem/implementací X <br>
+                <b>Pro vytvoření objektu používáme   </b> => klíčové slovo "new" a volání konstruktoru. <br>
+                <b>Klíčové slovo "static" se používá k   </b> => definování metod a proměnných, které patří přímo třídě a jsou společné pro všechny instance této třídy. <br>
+                <b>Klíčové slovo "this" se používá k    </b> => v metodě k odkazování na objekt, ze kterého je aktuální metoda volána <br>
+                <b>Pro odstranění objektu z paměti používáme    </b> => odstranění odkazů na daný objekt; ten je poté předán ke zrušení garbage collectoru <br>
+                <b>Jak se předávají primitivní typy (ne objekty) jako parametry při volání metod (v Javě 6)?    </b> => lze hodnotou i referencí <br>
+                <b>Tzv. gettery a settery se používají k     </b> => zapouzdření nastavení a získání hodnoty ze soukromé proměnné třídy. <br>
+                <b>Při volání konstruktoru se objevuje klíčové slovo ?     </b> => new <br>
+                <b>Jak se předávají objekty (ne primitivní typy) jako parametry při volání metod?     </b> => pouze referencí <br>
+                <b>Modifikátor "chráněný" se vytváří klíčovým slovem     </b> => protected <br>
+                <b>Modifikátor "soukromý" se vytváří klíčovým slovem     </b> => private <br>
+                <b>Modifikátor "veřejný" se vytváří klíčovým slovem      </b> => public <br> <br>
+
+                <b>Co je to testy řízený vývoj:       </b> => technika vývoje softwaru, kdy se nejdříve vytvoří test, a teprve poté se vytváří vlastní testovaný kód. <br> 
+                <b>Co je to funkční test?        </b> => Test ověřující funcionalitu modulů aplikace.. <br> 
+                <b>Co je to unitový test?        </b> => Test ověřující funkcionalitu funkčně jednoduchého bloku. <br> 
+                <b>Co je to integrační test?         </b> => Test ověřující funkcionalitu výsledné aplikace jako celku. <br> 
+                <b>Jedním z frameworků, který se používá pro TDD v Javě, je:          </b> =>  JUnit <br> 
+                <b>Správný postup při vývoji pomocí TDD je:           </b> =>  Vytvořit test, zběžně naimplementovat požadovanou funkcionalitu, po ověření testem ji pomocí refaktoringu upravit do výsledné formy.. <br> 
+                <b>Testovací metody v JUnit mají prefix:           </b> =>  test <br>
+                <b>Identifikátor používající se při testování v JUnit pro ohodnocení shodnosti/korektnosti výsledku je:            </b> =>  assert <br>
+                <b>Co je cílem refaktorování?             </b> =>  Vytvořit co nejčistější a nejpřehlednější funkční kód, Odstranění duplicit <br> <br>
+
+                <b>Správné operace s řetězce realizují výrazy:        </b> => String s = "Dobrý " + "den.";, boolean shodné = s.equals("Dobrý den"); <br> 
+                <b>Seřaďte následující typy podle velikosti od největšího do nejmenšího rozsahu:        </b> => double, float, long, int, short, byte. <br> 
+                <b>Jaký je význam existence třídy StringBuilder?         </b> => Umožňuje měnit proměnnou s řetězcem, aniž by se pro každou změnu musela vytvářet nová instance., Umožňuje vytvořit dlouhý řetězec pomocí skládání jednotlivých částí metodou append. <br> 
+                <b>Které z následujících dvojic hodnot čísel a datových typů si odpovídají?       </b> => 170 - int, 170L - long, 84.455f – float <br> 
+                <b>Vyberte pravdivá tvrzení o referenčních datových typech:       </b> => Lze je předat referencí, Mohou nabývat hodnotu NULL, Dědí z obecného typu Object. <br> 
+                <b>Nejvyšším datovým typem v hierarchii objektů v Javě je:        </b> => Object <br> 
+                <b>Vyberte pravdivá tvrzení o primitivních typech         </b> => Nepatří do objektové hierarchie typů, Předávají se hodnotou, Pomocí wrapovacích typů je lze používat jako typy referenční <br> 
+                <b>Označte pravdivé výroky ohledně metody toString():          </b> => Metoda je definována v datovém typu Object., Metoda se používá pro získání hodnoty objektu transformovaného na řetězec., Existuje primitivní typ, který nemá metodu toString() <br> 
+                <b>Vyberte správné přiřazení řetězce do proměnné:      </b> => String s = "Toto";, String s = new String("Toto");, String s = new String(); <br> <br>
+
+                <b>Korektní syntaxe pro vytvoření proměnné pro reprezentaci matice 3x3 bude:      </b> => int [][] mat = new int [3][3]; <br>
+                <b>Pro seřazení pole "x" použijeme výraz:       </b> => Arrays.sort(x); <br>
+                <b>Chci udržovat sadu 5 prvků, které dále nebudu rozšiřovat, ale budu chtít měnit jejich hodnoty. Použiji nejlépe:       </b> => Pole <br>
+                <b>Chci udržovat sadu prvků, kde každý prvek bude pouze jednou. Použiji nejlépe:       </b> => Množinu <br>
+                <b>Korektní syntaxe pro získání hodnoty z proměnné deklarované pomocí výrazu "int [] x = new int [10]" je:        </b> => int i = x[9];, int i = x[0];, int i = x[1]; <br>
+                <b>Pro průchod přes desetiprvkové pole v Javě použijeme cyklus:        </b> => for (int i = 0; i .<. 10; i++). <br>
+                <b>Korektní syntaxe pro definici 5-prvkového pole s indexy od 2 do 6 je:         </b> => takové pole nelze v Javě vytvořit. <br>
+                <b>Pro vyhledání hodnoty 4 v poli "x" použijeme výraz:          </b> => int index = Arrays.binarySearch(x, 4); // pole musí být předem seřazeno. <br>
+                <b>Jaké jsou vlastnosti kolekce vytvořené pomocí "List<Integer> kol = new ArrayList()":          </b> => Kolekce je přísně typová nad typem "Integer", Kolekce může držet proměnlivý počet prvků, lze je dynamicky přidávat. <br>
+                <b>Který z následujících příkazů získá 4. prvek pole x?         </b> => int a = x[3];. <br> <br>
+
+                <b>Která z následujících definic není syntaktický správně (předpokládáme, že všechny potřebné datové typy existují)?         </b> => public class A<Comparable extends T>. <br>
+                <b>Který z následujících řádků uvozuje generickou třídu X:         </b> => public class X<Y>. <br>
+                <b>Zatrhněte dvojici deklarací, které po kompilaci zahlásí chybu upozorňující na opakovaný výskyt stejné metody se stejnou signaturou:          </b> => public void add(List<String> data), public void add(List<Integer> data) <br>
+                <b>Které z následujících písmen označuje generický typ v deklaraci "public class A<B> extends C"         </b> => A <br>
+                <b>U kterých následujících výrazových prvků jazyka lze běžnou deklaraci rozšířit na generickou?         </b> => Metoda, Třída <br>
+                <b>Zatrhněte dvojici deklarací, které po kompilaci zahlásí chybu upozorňující na opakovaný výskyt stejné metody se stejnou signaturou: ->         </b> => public void add(List<String> data), public void add(List<Integer> data) <br> <br>
+                <b>Co je charakteristické pro systémovou výjimku, vyvolávanou v okamžiku fatální chyby ve virtuálním stroji Javy?        </b> => Je potomkem třídy RuntimeException, Je potomkem třídy Error, Nemusí se zachytávat blokem try-catch-finally <br>
+                <b>Pro uvození bloku, který se provede vždy, ať už výjimka vznikla či nikoliv, se používá klíčové slovo:         </b> => finally. <br>
+                <b>Které z následujících výjimek jsou nekontrolované?          </b> => Dělení nulou., Index mimo rozsah pole/kolekce., Vyvolání metody nad proměnnou s hodnotou null. <br>
+                <b>Který z následujících výrazů je korektní vyvolání výjimky?          </b> => throw new Exception ("Chyba.");. <br>
+                <b>Kolikrát můžeme použít podblok "try" v sekvenci try-catch-finally?          </b> => 1x <br>
+                <b>Pro uvození bloku, který bude zachytávat případnou výjimku, se používá klíčové slovo:           </b> => catch <br>
+                <b>Kolikrát můžeme použít podblok "finally" v sekvenci try-catch-finally?           </b> => 0x - 1x <br>
+                <b>Pro vyvolání výjimky se používá klíčové slovo:            </b> => throw <br>
+                <b>Co znamená, že výjimky jsou "řetězené":             </b> => že lze do nové instance výjimky vložit již existující instanci jiné výjimky <br>
+                <b>Pro uvození bloku, který zkusí provést zadané příkazy, se používá klíčové slovo:             </b> => try <br> <br>
+
+                <b>Základní třídou reprezentující určitý objekt na disku, je třída "java.io.File". Pokud vytvoříme instanci předáním určité cesty (např. C:\windows\windows.ini), musí tento objekt existovat?              </b> => ne <br>
+                <b>Základní třídou reprezentující určitý objekt na disku, je třída "java.io.File". Instance této třídy reprezentuje:              </b> => Složku, Soubor <br>
+                <b>Jakým způsobem řeší jazyk Java práci s odlišnými souborovými systémy různých operačních systémů?              </b> => Vše zapouzdřuje do jedné knihovny umožňující pracovat s libovolnými souborovými systémy. <br>
+                <b>Třídy pro práci se soubory a souborovým systémem lze nalézt v balíčku:               </b> => java.nio, java.io <br> <br>
+
+                <b>Výjimky při práci se streamy:                </b> => -> Je třeba zachytávat, typicky operace vyhazují java.io.IOException.. <br>
+                <b>Technika, která umožňuje automatizovaně ukládat instanci třídy do proudu dat, se nazývá:                 </b> => Serializace <br>
+                <b>Vstupní textový proud pro RAR dekompresi textu bude nejlépe charakterizován třídou:                 </b> => RarReader <br>
+                <b>Výstupní bytový proud pro RAR kompresi datových souborů bude nejlépe charakterizován třídou:                 </b> => RarOutputStream <br>
+                <b>V Javě se se soubory pracuje pomocí tzv. streamů. Tyto streamy lze (v javě typicky) dělit do kategorií na:                  </b> => Bytové a textové, Vstupní a výstupní <br>
+                <b>Základní operace při práci se streamy lze provádět v pořadí:                </b> => Otevření, načtení do lokální proměnné, uzavření, zpracování z lokální proměnné, Otevření, načtení do lokální proměnné, zpracování z lokální proměnné, uzavření <br>
+                
+                <br>
+                    <br>
+                 <br>
+            </div>
+        </div>
+    </body>
+    </html>
